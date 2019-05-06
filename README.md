@@ -38,6 +38,12 @@ nohup ./test.sh &
  ```
  1. 配置环境变量
  ```
+//打开
+sudo gedit ~/.bashrc 
+或者 
+sudo /etc/profile
+ ```
+ ```
 #android stdio
 export ANDROID_HOME=/opt/android-studio/bin
 export PATH=$PATH:$ANDROID_HOME
