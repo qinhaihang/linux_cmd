@@ -48,3 +48,10 @@ sudo /etc/profile
 export ANDROID_HOME=/opt/android-studio/bin
 export PATH=$PATH:$ANDROID_HOME
  ```
+#### 修改文件以及文件夹名称
+```
+//修改文件名
+sudo mv former_name new_name
+//修改文件夹名
+sudo mv former_name/ new_name/
+```
