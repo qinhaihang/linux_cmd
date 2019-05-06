@@ -13,3 +13,12 @@ nohup ./test.sh &
    3. 删除文件： rm a.txt
    4. 删除文件夹： rmdir NewFolder
    5. 删除带有文件的文件夹： rm -r NewFolder
+   
+#### 安装Intellij Idea 
+1. 切换到下载目录
+2. 解压到指定目录 ```sudo tar -zxvf ideaIU-2016.3.3-no-jdk.tar.gz -C /opt```
+3. 切换到 /opt目录 
+   ```
+   cd /opt/idea-IU-163.11103.6/bin
+   ```
+4. 运行 ./idea.sh
