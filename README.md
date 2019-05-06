@@ -21,4 +21,24 @@ nohup ./test.sh &
    ```
    cd /opt/idea-IU-163.11103.6/bin
    ```
-4. 运行 ./idea.sh
+4. 运行 
+   ```
+   ./idea.sh
+   ```
+   
+ #### 安装Android Studio
+ ```
+ sudo cp android-studio-ide-171.4408382-linux.zip /opt
+ sudo unzip -x android-studio-ide-171.4408382-linux.zip (解压，可以用 tar命令)
+ cd android studio/bin
+ sudo gedit idea.porperties （需要通过 sudo chmod 777 idea.porperties ）
+ cd /opt/android studio
+ sudo chmod 777 bin
+ 运行 ./studio.sh
+ ```
+ 1. 配置环境变量
+ ```
+#android stdio
+export ANDROID_HOME=/opt/android-studio/bin
+export PATH=$PATH:$ANDROID_HOME
+ ```
