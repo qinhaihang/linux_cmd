@@ -27,6 +27,8 @@ nohup ./test.sh &
    ```
    
  #### 安装Android Studio
+ > 一篇参考文章</br>
+ https://qianngchn.github.io/wiki/8.html
  ```
  sudo cp android-studio-ide-171.4408382-linux.zip /opt
  sudo unzip -x android-studio-ide-171.4408382-linux.zip (解压，可以用 tar命令)
