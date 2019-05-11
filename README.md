@@ -66,6 +66,7 @@ evince [filename] &
 //打开doc
 libreoffice filename &
 ```
+https://blog.csdn.net/www_helloworld_com/article/details/84786581
 
 
 
