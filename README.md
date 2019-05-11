@@ -57,3 +57,15 @@ sudo mv former_name new_name
 //修改文件夹名
 sudo mv former_name/ new_name/
 ```
+
+#### 打开 pdf以及doc文档
+```
+//打开PDF
+evince [filename] &
+
+//打开doc
+libreoffice filename &
+```
+
+
+
