@@ -68,5 +68,13 @@ libreoffice filename &
 ```
 https://blog.csdn.net/www_helloworld_com/article/details/84786581
 
+#### java jdk 配置
+查看安装路径 </br>
+sudo update-alternatives --config java
+环境变量配置
+1、 如果使用oracle java
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin"
 
+2、 如果使用openjdk
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre/bin"
 
