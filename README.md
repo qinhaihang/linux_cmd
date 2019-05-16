@@ -70,8 +70,8 @@ https://blog.csdn.net/www_helloworld_com/article/details/84786581
 
 #### java jdk 配置
 查看安装路径 </br>
-sudo update-alternatives --config java
-环境变量配置
+sudo update-alternatives --config java </br>
+环境变量配置 </br>
 1、 如果使用oracle java
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin"
 
