@@ -78,3 +78,4 @@ export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin"
 2、 如果使用openjdk
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre/bin"
 
+https://blog.csdn.net/demonliuhui/article/details/77488296
